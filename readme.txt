@@ -5,3 +5,5 @@ development by simplifing package sharing and dependency management.
 IO.js and Node js both were merged. IO.js was advanced but not famous and Node js was famous but not advanced 
 so both IO.js and Node js merged.
 
+Variables, functions, or objects defined in one file are not accessible in another file by default 
+unless you explicitly export them.
