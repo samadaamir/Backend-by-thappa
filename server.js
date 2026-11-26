@@ -23,4 +23,14 @@
 
  //Third way to export multiple functions from a module
 
- 
+ const math = require('./math');
+
+console.log(math.add(2, 3));
+console.log(math.multiply(2, 3));
+console.log(math.sub(2, 3));
+console.log(math.div(2, 3));
+
+//In this method, we are importing the entire math module as an object and 
+// then accessing the exported functions using dot notation. 
+// This allows us to use all the exported functions from the math 
+// module without having to destructure them individually.
